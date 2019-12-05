@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Inception.Domain
+﻿namespace Inception.Domain
 {
     public class Class1
     {

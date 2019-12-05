@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Inception.Data.Sql
+﻿namespace Inception.Data.Sql
 {
     public class Class1
     {

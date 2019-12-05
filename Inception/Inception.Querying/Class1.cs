@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Inception.Querying
+﻿namespace Inception.Querying
 {
     public class Class1
     {

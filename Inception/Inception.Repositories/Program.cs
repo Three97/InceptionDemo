@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Inception.Repositories
+﻿namespace Inception.Repositories
 {
+    using System;
+
     class Program
     {
         static void Main(string[] args)

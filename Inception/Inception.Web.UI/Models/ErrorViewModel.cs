@@ -1,5 +1,3 @@
-using System;
-
 namespace Inception.Web.UI.Models
 {
     public class ErrorViewModel

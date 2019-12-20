@@ -6,7 +6,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Inception.Commanding\Inception.Commanding.csproj" />
+    <ProjectReference Include="..\Inception.Data.Sql\Inception.Data.Sql.csproj" />
+    <ProjectReference Include="..\Inception.Domain\Inception.Domain.csproj" />
+    <ProjectReference Include="..\Inception.Querying\Inception.Querying.csproj" />
   </ItemGroup>
 
 

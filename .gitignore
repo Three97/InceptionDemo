@@ -48,4 +48,4 @@ testem.log
 Thumbs.db
 
 # Visual Studio
-.vs/*
+**/.vs/
